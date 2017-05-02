@@ -150,5 +150,8 @@ set shiftwidth=2
 set tabstop=2
 
 set nohlsearch
+set nobackup
 
-colorscheme wombat256i
+"colorscheme wombat256i
+"colorscheme crayon
+colorscheme basic-dark
