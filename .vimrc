@@ -12,6 +12,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'scrooloose/nerdcommenter'
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
@@ -140,7 +141,8 @@ set nobackup
 
 "colorscheme wombat256i
 "colorscheme crayon
-colorscheme basic-dark
+"colorscheme basic-dark
+colorscheme obsidian2
 
 "Statusline
 set laststatus=2
