@@ -139,10 +139,11 @@ set tabstop=2
 set nohlsearch
 set nobackup
 
-"colorscheme wombat256i
-"colorscheme crayon
-"colorscheme basic-dark
-colorscheme obsidian2
+if has('gui_running')
+	colorscheme basic-dark
+else
+	colorscheme obsidian2
+endif
 
 "Statusline
 set laststatus=2
