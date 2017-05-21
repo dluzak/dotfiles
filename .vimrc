@@ -130,8 +130,8 @@ packadd matchit
 set number
 set relativenumber
 
-map <F7> :tabp<CR>
-map <F8> :tabn<CR>
+map <F7> :bp<CR>
+map <F8> :bn<CR>
 
 set shiftwidth=2
 set tabstop=2
@@ -140,9 +140,10 @@ set nohlsearch
 set nobackup
 
 if has('gui_running')
-	colorscheme basic-dark
-else
 	colorscheme obsidian2
+	set guifont=Roboto\ Mono\ for\ Powerline
+else
+	colorscheme basic-dark
 endif
 
 "Statusline
