@@ -193,7 +193,7 @@ set $power_menu "Power off, Reboot or Sleep"
 mode $power_menu {
 				bindsym p exec systemctl poweroff
 				bindsym r exec systemctl reboot
-				bindsym s exec systemctl suspend
+				bindsym s exec $lock;mode "default";exec systemctl suspend
 
 				bindsym $mod+p exec systemctl poweroff
 				bindsym $mod+r exec systemctl reboot
