@@ -144,6 +144,9 @@ bindsym $mod+Shift+KP_8 move container to workspace 8
 bindsym $mod+Shift+KP_9 move container to workspace 9
 bindsym $mod+Shift+KP_0 move container to workspace 10
 
+# binding things to workspaces
+for_window [class="Spotify"] move to workspace 10
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -181,6 +184,7 @@ bindsym $mod+r mode "resize"
 set $lock exec ~/.config/i3/lock.sh
 bindsym $mod+z $lock
 bindsym $mod+u exec chromium-browser
+bindsym $mod+q exec qutebrowser
 bindsym $mod+Shift+s $lock;exec systemctl suspend
 
 # Double monitor setup file
@@ -212,7 +216,7 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 1 -5% #d
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 1 toggle # mute sound
 
 # Media player controls
-bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioPlay exec ~/.config/i3/play.sh
 bindsym XF86AudioStop exec playerctl stop
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
