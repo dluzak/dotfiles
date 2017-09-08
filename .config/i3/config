@@ -183,7 +183,7 @@ bindsym $mod+r mode "resize"
 # Shortcuts
 set $lock exec ~/.config/i3/lock.sh
 bindsym $mod+z $lock
-bindsym $mod+u exec chromium-browser
+bindsym $mod+u exec chromium-browser || chromium
 bindsym $mod+q exec qutebrowser
 bindsym $mod+Shift+s $lock;exec systemctl suspend
 
