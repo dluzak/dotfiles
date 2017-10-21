@@ -3,7 +3,7 @@
 # for examples
 
 alias matlab='/usr/local/MATLAB/R2015a/bin/matlab'
-alias pycharm='/opt/pycharm-community-2016.3.2/bin/pycharm.sh'
+alias pycharm='/opt/pycharm-community-2017.2.3/bin/pycharm.sh'
 
 # If not running interactively, don't do anything
 case $- in
