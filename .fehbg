@@ -1,0 +1,2 @@
+#!/bin/sh
+feh  --bg-fill '/home/dluzak/wallpapers/pexels-photo.jpeg' '/home/dluzak/wallpapers/pexels-photo.jpg' '/home/dluzak/wallpapers/italian-landscape-mountains-nature.jpg' 
