@@ -190,8 +190,11 @@ bindsym $mod+Shift+s $lock;exec systemctl suspend
 # Double monitor setup file
 exec_always xrandr --output HDMI2 --primary --left-of DP1
 
-# Added gap between windows
-new_window pixel 10
+# i3-gaps specific settings
+hide_edge_borders both
+for_window [class="^.*"] border pixel 0
+gaps inner 10
+gaps outer 5
 
 set $power_menu "Power off, Reboot or Sleep"
 mode $power_menu {
