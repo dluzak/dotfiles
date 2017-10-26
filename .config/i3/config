@@ -144,8 +144,8 @@ bindsym $mod+Shift+KP_8 move container to workspace 8
 bindsym $mod+Shift+KP_9 move container to workspace 9
 bindsym $mod+Shift+KP_0 move container to workspace 10
 
-bindsym $mod+Mod1+k workspace next
-bindsym $mod+Mod1+j workspace prev
+bindsym $mod+Mod1+k workspace next_on_output
+bindsym $mod+Mod1+j workspace prev_on_output
 
 # binding things to workspaces
 for_window [class="Spotify"] move to workspace 10
