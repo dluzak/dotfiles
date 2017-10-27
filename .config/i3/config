@@ -192,7 +192,7 @@ exec_always xrandr --output HDMI2 --primary --left-of DP1
 
 # i3-gaps specific settings
 hide_edge_borders both
-for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel 3
 gaps inner 10
 gaps outer 5
 
