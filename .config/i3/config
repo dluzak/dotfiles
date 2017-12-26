@@ -234,3 +234,6 @@ bar {
 				font pango:Roboto Mono for Powerline 13
 				separator_symbol "◀"
 }
+
+# run flux on startup
+exec fluxgui &
