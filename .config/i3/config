@@ -191,6 +191,10 @@ bindsym $mod+q exec qutebrowser
 #bindsym $mod+Shift+s $lock;exec systemctl suspend
 bindsym $mod+Shift+s exec shutter -s
 
+# diep.io main build
+bindsym F8 exec xdotool type --delay 40 564654654654654654654654787812121212
+
+
 # Double monitor setup file
 exec_always xrandr --output HDMI2 --primary --left-of DP1
 
