@@ -133,6 +133,8 @@ set relativenumber
 map <F7> :bp<CR>
 map <F8> :bn<CR>
 
+imap jk <Esc>
+
 set shiftwidth=2
 set tabstop=2
 
