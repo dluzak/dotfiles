@@ -188,7 +188,8 @@ set $lock exec ~/.config/i3/lock.sh
 bindsym $mod+z $lock
 bindsym $mod+u exec chromium-browser || chromium
 bindsym $mod+q exec qutebrowser
-bindsym $mod+Shift+s $lock;exec systemctl suspend
+#bindsym $mod+Shift+s $lock;exec systemctl suspend
+bindsym $mod+Shift+s exec shutter -s
 
 # Double monitor setup file
 exec_always xrandr --output HDMI2 --primary --left-of DP1
